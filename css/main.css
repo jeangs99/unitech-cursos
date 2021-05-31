@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+    background-color: #000000;
+    /*position: fixed;*/
+}
+
+.menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    /*position: fixed;*/
+}
+
+.menu ul li {
+    display: inline;
+
+}
+
+.menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+
+}
+
+.menu ul li a:hover {
+    background-color: #429ef5;
+}
+
+.secao {
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.cursos{
+    display: inline-block;
+    width: 30%;
+    padding: 0 1%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.cursos img {
+    width: 345px;
+    height: 149px;
+    padding: 0px;
+    border-bottom: solid #c21010;
+    margin-bottom: 5px;
+}
+
+.cursos h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+
+.cursos p{
+    font-size: 15px;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #bbb;
+}
+
+form{
+font-size: 16px;
+border: solid #000;
+background: #555;
+max-width: 500px;
+margin-top: 5em;
+padding: 0 10px 10px 10px;
+
+}
+
+h1{
+color: #fff
+}
+
+input, textarea{
+margin-top: 20px;
+width: 474px;
+padding: 10px;
+}
+
+.enviar input {
+background-color: #069;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 5px;
+webkit-border-radius: 5px;
+moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+}
+
+.enviar input:hover{
+background: #078;
+}
+
+textarea {
+width: 474px;
+height: 120px;
+line-height: 20px;
+}
+
+footer {
+ width: 100%;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ height: 50px;
+ display: flex;
+ margin-top: 50px;
+}
+
+
+
+.botao  {
+top:20px;
+left:50px;
+margin:0px;
+padding:0px;
+overflow: hidden;
+        }
+
+.botao a, .botao a:visited {  
+font-family: bold 12px/24px arial, helvetica, sans-aerif;  
+padding:4px;
+text-decoration: none;
+text-align:center;  
+color:#fff;
+background: #222 url('botao_link.gif') no-repeat 
+center center;  
+width:120px;  
+height:30px;    
+display:block;
+border-bottom: solid #111;
+    }
+
+.botao a:hover { 
+background: #c21010 url('botao_hover.gif') no-repeat
+center center;
+border-bottom: solid #9c0606;
+color:white;
+               }
+
+
+.logo {
+    width: 100%;
+    height: auto;
+    padding: 0 auto;
+
+}
+
+#t1{
+  text-align: center;
+  color: Black;
+}
+
+#logo{
+  text-align: center;
+  width:10%;
+  display: inline;
+  margin-left: 400px;
+  
+}
+
+.uni{
+    padding: 5px 40px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    color: white;
+}
+
+.foot{
+    width: 100%;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ height: 50px;
+ display: flex;
+ margin-top: 150px;
+}
