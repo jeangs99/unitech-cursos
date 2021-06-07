@@ -1,106 +1,345 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* ESTILOS GERAIS */
 
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    background-color: #bbb;
+body{
+	background-color: #f5f5f5;
+	font-family: "Nunito";
+}
+
+ul {
+	list-style: none;
+}
+
+a, a:hover, a:active, a:visited, a:link{
+	text-decoration: none;
+}
+
+hr{
+	width: 140px;
+	height: 2px;
+	margin: 20px auto;
+	border: none;
+	background-color: #752196;
+}
+
+p{
+	font-family: calibri;
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.site_titulo{
+	text-align: center;
+	font-size: 3rem;
+	font-family: verdana;
+	margin-bottom: 40px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+/* MENU */
+
+.menu-geral{
+	background-color: #44195c;
+}
+
+.menu{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	max-width: 960px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	margin: 10px;
+}
+
+.logo h1{
+	color: white;
+	padding: 5px 20px;
+	border: 2px solid #133d9e;
+}
+
+.logo h1:hover{
+	color: #ddd;
+}
+
+.nav ul {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav ul li {
+	padding: 20px 10px;
+}
+
+.nav ul li a{
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+.nav ul li a:hover{
+	color: #f5f5f5;
+	background-color: #6b338a;
+}
+
+.info{
+	padding: 25px 0;
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* SOBRE NÓS */
+
+.sobre{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.sobre-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.sobre-t{
+	flex: 6 1 160px;
+}
+
+.sobre-img{
+	flex: 1 1 350px;
 }
 
 
-/* Menu Principal do Site*/ 
+/* Categorias */
 
-.menu ul {
-    width: 100%;
-    list-style: none;
-    padding-left: 20%;
-    background-color: #252525;
+.categorias{
+	background-color: #b37bd4;
 }
 
-.menu ul li {
-    display: inline;
+.categorias-c{
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.menu ul li a {
-    color: #FFF;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .4s;
+.categoria{
+	width: 290px;
+	margin: 10px 10px;
+	border: 2px solid #133d9e;
 }
 
-.menu ul li a:hover {
-    background-color: #429ef5;
+.categoria-t{
+	font-size: 40px;
+	font-family: Calibri;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px auto;
 }
 
-/* Área de Cursos*/ 
-
-.secao {
-    text-align: center;
-    padding: 5em 1em;
+.categoria-d{
+	background-color: #133d9e;
+	width: 20px;
+	margin: 5px auto;
 }
 
-.cursos{
-    display: inline-block;
-    width: 30%;
-    padding: 0 1%;
-    text-align: left;
-    margin-bottom: 5px;
+.categoria-l{
+	max-width: 195px;
+	margin: 0 auto;
 }
 
-.cursos img {
-    width: 345px;
-    height: 149px;
-    padding: 0px;
-    border-bottom: solid #c21010;
-    margin-bottom: 5px;
+.categoria-i{
+	font-family: verdana;
+	margin: 10px 0;
+	font-style: italic;
+	display: flex;
+	align-items: center;
 }
 
-.cursos h3{
-    font-size: 25px;
-    margin-bottom: 5px;
-
+.categoria-i::before{
+	content: "";
+	display: block;
+	width: 5px;
+	height: 5px;
+	background-color: #133d9e;
+	border-radius: 5px;
+	margin-right: 5px;
 }
 
-.cursos p{
-    font-size: 15px;
-    font-family: Arial;
-    margin-bottom: 20px;
+.categorias-btn{
+	display: block;
+	max-width: 180px;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 15px auto;
+	padding: 10px;
+	text-align: center;
+	font-family: Calibri;
+	color: black;
+	border: 2px solid #44195c;
 }
 
-.botao  {
-top:20px;
-left:50px;
-margin:0px;
-padding:0px;
-overflow: hidden;
-        }
+.categorias-btn:hover{
+	color: #f5f5f5;
+	background-color: #6b338a;
+}
 
-.botao a, .botao a:visited {  
-font-family: bold 12px/24px arial, helvetica, sans-aerif;  
-padding:4px;
-text-decoration: none;
-text-align:center;  
-color:#fff;
-background: #222 url('botao_link.gif') no-repeat 
-center center;  
-width:120px;  
-height:30px;    
-display:block;
-border-bottom: solid #111;
-    }
+/* Contato */
 
-.botao a:hover { 
-background: #c21010 url('botao_hover.gif') no-repeat
-center center;
-border-bottom: solid #9c0606;
-color:white;
-               }
+.contato {
+	background-color: #8d4cb0;
+}
+
+
+.contato-c{
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contato-info{
+	flex: 1 1 260px;
+	padding-left: 10px;
+}
+
+.contato-titulo{
+	color: #f5f5f5;
+	font-size: 2.62rem;
+	font-weight: bold;
+}
+
+.contato-p{
+	color: #f5f5f5;
+	font-family: Arial;
+}
+
+.contato-form{
+	flex: 2 1 260px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contato-input{
+	flex: 3 1 260px;
+	font-size: 1.25rem;
+	width: 325px;
+	color: black;
+	font-family: Verdana;
+	border: 4px solid #6b4582;
+	padding: 10px;
+	margin: 0;
+	border-radius: 0px;
+}
+
+.contato-btn{
+	flex: 1 1 260px;
+	color: white;
+	width: 192px;
+	font-family: calibri;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 5px;
+	background-color: #ab6cbd;
+	border: 4px solid #6b4582;
+}
+
+.contato-btn:hover{
+	background-color: #6b338a;
+}
+
+/* Categoria - Cursos */
+
+.planos{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.planos-c{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.plano {
+	margin-bottom: 20px;
+}
+
+.plano img {
+	border: 3px solid #44195c;
+}
+.planos-btn{
+	display: block;
+	max-width: 180px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 2px auto;
+	text-align: center;
+	font-family: Calibri;
+	color: black;
+	background-color: #b37bd4;
+	border: 2px solid #44195c;
+}
+
+.planos-btn:hover{
+	color: #f5f5f5;
+	background-color: #6b338a;
+}
+
+/* Rodapé do Site */
+
+.rodape{
+	background-color: #5f287d;
+}
+
+.rodape-c{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	max-width: 960px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rodape-t{
+	margin: 10px;
+}
+
+.rodape-t h2{
+	font-size: 15px;
+	color: white;
+	font-family: helvetica;
+}
+
+.rodape-logo{
+	padding: 10px;
+}
+
+.rodape-logo h1{
+	color: white;
+	padding: 5px 20px;
+	border: 2px solid #133d9e;
+}
+
+/* Videos iFrames */
 
 #video-frame{
     text-align: center;
@@ -111,193 +350,4 @@ color:white;
   width: 850px;
   height: 500px;
   margin: 80px;
-}
-
-/* Sobre*/ 
-
-.uni{
-    padding: 5px 40px;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 10px;
-    color: black;
-}
-
-#logo{
-    text-align: center;
-    width:10%;
-    display: inline;
-    margin-left: 400px;
-}
-
-#t1{
-  text-align: center;
-  color: black;
-  margin-left: -55px;
-  background:#ffffff3b;
-  border-radius: 6px;
-}
-
-#t2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 20em;
-
-}
-#t3 {   
-    margin-left: auto;
-    margin-right: auto;
-    width: 20em;
-}
-#t4 {
-  background:#ffffff3b;
-  border-radius: 6px;   
-  padding: 5px 40px;
-  margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-radius: 10px;
-  color:#ffffff00;
-
-}
-
-
-/* Área de contato*/ 
-
-form{
-font-size: 16px;
-border: solid #000;
-background: #555;
-max-width: 500px;
-margin-top: 5em;
-padding: 0 10px 10px 10px;
-
-}
-
-#contato{
-color: #fff
-}
-
-input, textarea{
-margin-top: 20px;
-width: 474px;
-padding: 10px;
-}
-
-.enviar input {
-background-color: #069;
-height: 40px;
-width: 150px;
-font-weight: bold;
-border-radius: 5px;
-webkit-border-radius: 5px;
-moz-border-radius: 5px;
-border: 1px solid;
-color: #FFF;
-cursor: pointer;
-}
-
-.enviar input:hover{
-background: #078;
-}
-
-textarea {
-width: 474px;
-height: 120px;
-line-height: 20px;
-}
-
-/* Rodapé do Site*/
-
-#final1 {
-	background-color: #000;
-	height: 50px;
-
-} 
-
-#final1 h2{
-	color: #444;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 10px;
-}
-
-#final1 h2 a {
-	text-decoration: none;
-	color: #888;
-}
-
-#final2 {
-	background-color: #000;
-	height: 50px;
-	margin-top: 139px;
-
-} 
-
-#final2 h2{
-	color: #444;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 10px;
-}
-
-#final2 h2 a {
-	text-decoration: none;
-	color: #888;
-}
-
-#final3 {
-	background-color: #000;
-	height: 50px;
-	margin-top: 80px;
-
-} 
-
-#final3 h2{
-	color: #444;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 10px;
-}
-
-#final3 h2 a {
-	text-decoration: none;
-	color: #888;
-}
-
-.fim {
-    background-color: #000;
-    height: 50px;
-    margin-top: 80px;
-} 
-
-.fim h2{
-    color: #444;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.fim h2 a {
-    text-decoration: none;
-    color: #888;
-}
-
-.instagram-link {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
-}
-.fa-instagram {
-    margin-top: 16px;
 }

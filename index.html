@@ -1,141 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-  	<link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>UniTech - Cursos</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>UniTech - Inicio</title>
   </head>
 
   <body>
-      <nav class="menu">
-          <ul>
-              
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="contato.html">Contato</a></li>
-          </ul>
-      </nav>
+    <header>
+      <div class="menu-geral">
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html"><h1>UniTech</h1></a>
+          </div> <!-- .logo -->
+          <nav class="nav">
+            <ul>
+              <li><a href="#categorias">Categoria</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav> <!-- .nav -->
+        </div> <!-- .menu -->
+      </div>  <!-- .menu-geral -->
+      <h1 class="info">Conheça os melhores cursos livres, e rápidos,<br>que podem alavancar sua carreira</h1> <!-- .info -->
+    </header>
 
-      <section class="secao">
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso HTML Completo</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-html.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
+    <hr>
 
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso CSS Completo</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-css.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
+    <section class="categorias" id="categorias">
+      <h2 class="site_titulo">Categoria</h2>
+      <div class="categorias-c">
+        <div class="categoria">
+          <h2 class="categoria-t">Básico</h2>
+          <hr class="categoria-d">
+          <ul class="categoria-l">
+            <li class="categoria-i">50h cada curso</li>
+            <li class="categoria-i">Acesso a todos os cursos</li>
+            <li class="categoria-i">Certificado de conclusão</li>
+          </ul> <!-- .categoria-l -->
+          <a href="basico.html" class="categorias-btn">Ver mais</a>
+        </div> <!-- .categoria -->
+        <div class="categoria">
+          <h2 class="categoria-t">Intermediário </h2>
+          <hr class="categoria-d">
+          <ul class="categoria-l">
+            <li class="categoria-i">100h cada curso</li>
+            <li class="categoria-i">Acesso a todos os cursos</li>
+            <li class="categoria-i">Certificado de conclusão</li>
+          </ul> <!-- .categoria-l -->
+          <a href="intermediario.html" class="categorias-btn">Ver mais</a>
+        </div> <!-- .categoria -->
+        <div class="categoria">
+          <h2 class="categoria-t">Avançado</h2>
+          <hr class="categoria-d">
+          <ul class="categoria-l">
+            <li class="categoria-i">150h cada curso</li>
+            <li class="categoria-i">Acesso a todos os cursos</li>
+            <li class="categoria-i">Certificado de conclusão</li>
+          </ul> <!-- .categoria-l -->
+          <a href="avancado.html" class="categorias-btn">Ver mais</a>
+        </div> <!-- .categoria -->
+      </div> <!-- .categoria-c -->
+    </section> <!-- .categoria -->
 
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso JavaScript Completo</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-javascript.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
+    <hr>
 
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Java Basico Completo</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-java-basico.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
+    <section class="sobre" id="sobre">
+      <h2 class="site_titulo">Sobre Nós</h2> <!-- .sobre_titulo -->
+      <div class="sobre-c">
+        <div class="sobre-t">
+          <p>A UniTech começa inspirada em disponibilizar diversos cursos completos para pessoas que desejam aprender a programar. Por isso fundamos ela, para ajudar todos que tenham interesse em desenvolver um sistema tanto para questões sociais quanto para uma empresa privada.</p>
+          <br>
+          <p>Somos uma empresa nova, mas nesse ramo, já temos muitas ideias, e vemos muito futuro na nossa empresa, principalmente porque temos visões com projetos sociais visando ajudar jovem de razão social baixa ajudando-os a ter pelo menos uma formação técnica para seu futuro.</p>
+        </div> <!-- .somos-t -->
+        <div class="sobre-img">
+          <img src="img/dev.png" alt="Sobre Nós">
+        </div> <!-- .sobre-img -->
+      </div> <!-- .sobre-c -->
+    </section> <!-- .sobre -->
 
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Java Intermediário</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-java-intermediario.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
+    <hr>
 
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso PHP Básico</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-php.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso C++ Básico</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-c-plus-plus.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso C#</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-c-sharp.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Python Básico</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-python.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso React </h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-react.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Node</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-node.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Laravel</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-laravel.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-            <div class="cursos">
-              <img src="img/base.png">
-              <h3>Curso Mysql</h3>
-              <p>O Hipster Ipsum traz para o modelo de texto palavras inspiradas em elementos da cultura hipster. Por exemplo: “Blue Bottle kogi small batch, Thundercats hashtag roof party stumptown. Banjo organic gentrify sustainable sriracha. 8-bit shabby chic Neutra”.</p>
-              <p class="botao">
-                <a href="./cursos/curso-mysql.html" title="Pagina Offline">Acessar Curso</a>
-              </p>
-            </div>
-
-      </section>
-
-      <footer id="final1"><h2>Copyright © 2020 • Todos os Direitos Reservados • <a href="#">Six Minds</a></h2></footer>
+    <section class="contato" id="contato">
+      <div class="contato-c">
+        <div class="contato-info">
+          <h2 class="contato-titulo">Contato</h2> <!-- .contato-titulo -->
+          <p class="contato-p">Deseja tirar dúvidas? Entre em contato conosco</p>
+        </div> <!-- .contato-info -->
+        <form action="" class="contato-form">
+          <input type="text" placeholder="Seu e-mail" class="contato-input">
+          <button type="submit" class="contato-btn">Enviar</button>
+        </form> <!-- .contato-form -->
+      </div> <!-- .contato-c -->
+    </section> <!-- .contato -->
+    <footer class="rodape">
+      <div class="rodape-c">
+        <div class="rodape-t">
+          <h2>Copyright &copy; 2021 - Todos os Direitos Reservados</h2>
+        </div> <!-- .rodape-t -->
+        •
+        <div class="rodape-logo">
+          <a href="index.html"><h1>UniTech</h1></a>
+        </div> <!-- .rodape-logo -->
+      </div> <!-- .rodape-c -->
+    </footer> <!-- .rodape -->
 
   </body>
 </html>
