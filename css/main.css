@@ -7,21 +7,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.menu{
-    background-color: #000000;
-    /*position: fixed;*/
+body {
+    background-color: #bbb;
 }
 
+
+/* Menu Principal do Site*/ 
+
 .menu ul {
-    max-width: 800px;
+    width: 100%;
     list-style: none;
-    padding: 0;
-    /*position: fixed;*/
+    padding-left: 20%;
+    background-color: #252525;
 }
 
 .menu ul li {
     display: inline;
-
 }
 
 .menu ul li a {
@@ -30,12 +31,13 @@
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
-
 }
 
 .menu ul li a:hover {
     background-color: #429ef5;
 }
+
+/* Área de Cursos*/ 
 
 .secao {
     text-align: center;
@@ -70,9 +72,73 @@
     margin-bottom: 20px;
 }
 
-body {
-    background-color: #bbb;
+.botao  {
+top:20px;
+left:50px;
+margin:0px;
+padding:0px;
+overflow: hidden;
+        }
+
+.botao a, .botao a:visited {  
+font-family: bold 12px/24px arial, helvetica, sans-aerif;  
+padding:4px;
+text-decoration: none;
+text-align:center;  
+color:#fff;
+background: #222 url('botao_link.gif') no-repeat 
+center center;  
+width:120px;  
+height:30px;    
+display:block;
+border-bottom: solid #111;
+    }
+
+.botao a:hover { 
+background: #c21010 url('botao_hover.gif') no-repeat
+center center;
+border-bottom: solid #9c0606;
+color:white;
+               }
+
+#video-frame{
+    text-align: center;
+    vertical-align: middle;
 }
+
+#video-frame iframe{
+  width: 850px;
+  height: 500px;
+  margin: 80px;
+}
+
+
+
+/* Sobre*/ 
+
+.uni{
+    padding: 5px 40px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    color: white;
+}
+
+#logo{
+    text-align: center;
+    width:10%;
+    display: inline;
+    margin-left: 400px;
+}
+
+#t1{
+  text-align: center;
+  color: Black;
+}
+
+
+/* Área de contato*/ 
 
 form{
 font-size: 16px;
@@ -84,7 +150,7 @@ padding: 0 10px 10px 10px;
 
 }
 
-h1{
+#contato{
 color: #fff
 }
 
@@ -117,85 +183,60 @@ height: 120px;
 line-height: 20px;
 }
 
-footer {
- width: 100%;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- height: 50px;
- display: flex;
- margin-top: 50px;
+/* Rodapé do Site*/
+
+#final1 {
+	background-color: #000;
+	height: 50px;
+
+} 
+
+#final1 h2{
+	color: #444;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
 }
 
-
-
-.botao  {
-top:20px;
-left:50px;
-margin:0px;
-padding:0px;
-overflow: hidden;
-        }
-
-.botao a, .botao a:visited {  
-font-family: bold 12px/24px arial, helvetica, sans-aerif;  
-padding:4px;
-text-decoration: none;
-text-align:center;  
-color:#fff;
-background: #222 url('botao_link.gif') no-repeat 
-center center;  
-width:120px;  
-height:30px;    
-display:block;
-border-bottom: solid #111;
-    }
-
-.botao a:hover { 
-background: #c21010 url('botao_hover.gif') no-repeat
-center center;
-border-bottom: solid #9c0606;
-color:white;
-               }
-
-
-.logo {
-    width: 100%;
-    height: auto;
-    padding: 0 auto;
-
+#final1 h2 a {
+	text-decoration: none;
+	color: #888;
 }
 
-#t1{
-  text-align: center;
-  color: Black;
+#final2 {
+	background-color: #000;
+	height: 50px;
+	margin-top: 139px;
+
+} 
+
+#final2 h2{
+	color: #444;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
 }
 
-#logo{
-  text-align: center;
-  width:10%;
-  display: inline;
-  margin-left: 400px;
-  
+#final2 h2 a {
+	text-decoration: none;
+	color: #888;
 }
 
-.uni{
-    padding: 5px 40px;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 10px;
-    color: white;
+#final3 {
+	background-color: #000;
+	height: 50px;
+	margin-top: 80px;
+
+} 
+
+#final3 h2{
+	color: #444;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
 }
 
-.foot{
-    width: 100%;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- height: 50px;
- display: flex;
- margin-top: 150px;
+#final3 h2 a {
+	text-decoration: none;
+	color: #888;
 }
