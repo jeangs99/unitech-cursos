@@ -8,6 +8,7 @@
 }
 
 body {
+    width: 100%;
     background-color: #bbb;
 }
 
@@ -112,8 +113,6 @@ color:white;
   margin: 80px;
 }
 
-
-
 /* Sobre*/ 
 
 .uni{
@@ -122,7 +121,7 @@ color:white;
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 #logo{
@@ -134,7 +133,33 @@ color:white;
 
 #t1{
   text-align: center;
-  color: Black;
+  color: black;
+  margin-left: -55px;
+  background:#ffffff3b;
+  border-radius: 6px;
+}
+
+#t2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+
+}
+#t3 {   
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+#t4 {
+  background:#ffffff3b;
+  border-radius: 6px;   
+  padding: 5px 40px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 10px;
+  color:#ffffff00;
+
 }
 
 
@@ -239,4 +264,40 @@ line-height: 20px;
 #final3 h2 a {
 	text-decoration: none;
 	color: #888;
+}
+
+.fim {
+    background-color: #000;
+    height: 50px;
+    margin-top: 80px;
+} 
+
+.fim h2{
+    color: #444;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fim h2 a {
+    text-decoration: none;
+    color: #888;
+}
+
+.instagram-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-instagram {
+    margin-top: 16px;
 }
