@@ -9,15 +9,11 @@ Para acessar o site [clique aqui](http://unitech-cursos.azurewebsites.net).
 
 Alunos:
 
-Dolavan Gomes Silva 
-RA: 2220106616
-Thiago Pinheiro de Souza
-RA: 2220104090
-Jean Gomes dos Santos
-RA: 2220111644
-Wesley Kelvin De Souza Figueiredo
-RA: 2220103908
-Felipe Gomes Lucena
-RA: 2219104325
-Nome:Nikolas Souza de Oliveira Cerqueira 
-Ra:2220112465
+| NOME                                | RA         |
+| ----------------------------------- | ---------- |
+| Dolavan Gomes Silva                 | 2220106616 |
+| Thiago Pinheiro de Souza            | 2220104090 |
+| Jean Gomes dos Santos               | 2220111644 |
+| Wesley Kelvin De Souza Figueiredo   | 2220103908 |
+| Felipe Gomes Lucena                 | 2219104325 |
+| Nikolas Souza de Oliveira Cerqueira | 2220112465 |
