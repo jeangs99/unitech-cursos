@@ -5,7 +5,9 @@ Esse projeto é focado em coletar os mais diversos cursos gratuitos online e dis
 
 Não temos a intenção de lucrar com esse projeto e muito menos nos apropriar dos cursos de seus respectivos donos.
 
-Para acessar o site [clique aqui](http://unitech-cursos.azurewebsites.net).
+Para acessar o site [clique aqui](https://unitech-cursos.web.app/).
+
+Hospedado no [Google Firebase](https://firebase.google.com/)
 
 Alunos:
 
